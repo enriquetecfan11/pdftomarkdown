@@ -100,7 +100,7 @@ const PDFToMarkdownConverter = () => {
           types={["PDF"]}
           classes="w-full"
         >
-          <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center cursor-pointer hover:border-blue-500 transition-colors">
+          <div className="border-2 border-dashed border-gray-300 rounded-lg p-10 text-center cursor-pointer hover:border-blue-500 transition-colors">
             <Upload className="mx-auto mb-4 text-gray-600" size={48} />
             <p className="text-gray-600">Arrastra tu archivo aquí o haz clic para seleccionar</p>
           </div>
